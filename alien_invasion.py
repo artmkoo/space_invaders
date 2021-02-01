@@ -9,7 +9,7 @@ def run_game():
 
     #Zdefiniowanie koloru tła
     bg_color = (230, 230, 230)
-    
+
     #Rozpoczęcie głównej pętli gry
     while True:
 
@@ -17,7 +17,7 @@ def run_game():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-        
+
         #Odświeżenie ekranu w trakcie każdej iteracji pentli
         screen.fill(bg_color)
 
@@ -25,3 +25,4 @@ def run_game():
         pygame.display.flip()
 
 run_game()
+print(test)
